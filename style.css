@@ -129,6 +129,27 @@ nav {
   width: 20px;
 }
 
+.userLinkInfo {
+  border: none;
+  background-color: white;
+  color: rgb(44, 44, 44);
+  transition: all 200ms ease;
+  width: 75%;
+}
+
+.alertRing {
+  padding: 5px 10px;
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+
+.alertRing svg {
+  margin-bottom: 5px;
+}
+
+.alertRing:hover {
+  background-color: #d6d8ce;
+}
 @media screen and (max-width: 770px) {
   .positionContainer {
     display: none;
